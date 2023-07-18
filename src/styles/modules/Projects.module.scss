@@ -1,0 +1,104 @@
+.portfolio {
+  &__content {
+    max-width: 970px;
+    background-color: var(--block-bg);
+    margin-bottom: 30px;
+    color: var(--main-text);
+
+    h2 {
+      text-align: center;
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 32px;
+      background-color: var(--background);
+      padding-bottom: 25px;
+      // border: 1px solid red;
+    }
+  }
+
+  &__block {
+    // border: 1px solid var(--paragraph);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+    @media all and (max-width: 1250px) {
+      justify-content: space-around;
+    }
+  }
+
+  &__item {
+    margin: 5px;
+  }
+
+  &__preview {
+    margin-bottom: 15px;
+    a {
+      img {
+        border-radius: 5px;
+        width: 290px;
+        @media all and (max-width: 1412px) {
+          width: 250px;
+        }
+        @media all and (max-width: 1250px) {
+          width: 350px;
+        }
+        @media all and (max-width: 1080px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__description {
+    // border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &_element {
+    display: grid;
+    grid-template-columns: 1fr 536px;
+    column-gap: 180px;
+    margin-bottom: 11px;
+    .schoolname {
+      .name {
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 25px;
+      }
+      .date {
+        width: 111px;
+        height: 18px;
+        background: var(--accent);
+        border-radius: 2px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 10px;
+        color: var(--btn);
+        padding: 4px 7px;
+        text-align: center;
+        margin-left: 10px;
+      }
+    }
+    .speciality {
+      max-width: 536px;
+      .spec_name {
+        margin-bottom: 28px;
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .spec_description {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 15px;
+        color: var(--paragraph);
+      }
+    }
+  }
+}

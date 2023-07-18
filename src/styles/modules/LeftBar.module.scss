@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@keyframes active {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: precentage;
+  }
+}
+
+$col: #ffb400;
+
+.container {
+  width: 305px;
+  height: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--block-bg);
+
+  @media all and (max-width: 800px) {
+    max-width: 205px;
+  }
+}
+
+.wrapper {
+  max-width: 220px;
+  margin: 0 auto;
+
+  padding-top: 50px;
+  padding-bottom: 25px;
+  @media all and (max-width: 800px) {
+    max-width: 175px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+.endline {
+  height: 1.5px;
+  background-color: var(--light-gray);
+  border-radius: 3px;
+  margin: 25px 0;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: var(--main-text);
+
+  @media all and (max-width: 800px) {
+    font-size: 15px;
+  }
+}
+
+.progress_bar {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+
+  @media all and (max-width: 800px) {
+    font-size: 12px;
+  }
+
+  &__line {
+    height: 6px;
+    border: 0.75px solid var(--accent);
+    border-radius: 30px;
+    width: 100%;
+    padding: 0 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 9px;
+
+    &__number {
+      height: 2px;
+      border-radius: 30px;
+      background: var(--accent);
+      animation: active 2s 1;
+    }
+  }
+}
+
+.left {
+  &__summary {
+    text-align: center;
+  }
+
+  &__profile {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    h3 {
+      margin-bottom: 15px;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--main-text);
+
+      @media all and (max-width: 800px) {
+        font-size: 15px;
+      }
+    }
+
+    p {
+      margin-bottom: 15px;
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--paragraph);
+
+      @media all and (max-width: 800px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    li {
+      width: 35px;
+      height: 35px;
+
+      @media all and (max-width: 800px) {
+        width: 25px;
+        height: 25px;
+      }
+
+      svg {
+        border-radius: 50%;
+        &:hover {
+          background: lighten($col, $amount: 5);
+          transform: scale(1.1);
+        }
+        &:active {
+          transform: translateX(2px) translateY(-2px);
+          background: darken($col, $amount: 5);
+        }
+      }
+
+      .git {
+        path {
+          fill: var(--accent);
+        }
+      }
+    }
+  }
+
+  &__extraskills {
+    color: var(--paragraph);
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+    @media all and (max-width: 800px) {
+      font-size: 12px;
+    }
+    img {
+      margin-right: 15px;
+
+      @media all and (max-width: 800px) {
+        margin-right: 10px;
+      }
+    }
+
+    &__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 20px;
+      height: 40px;
+
+      background: var(--accent);
+      color: var(--btn);
+      font-family: "Inter";
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+
+      @media all and (max-width: 1080px) {
+        padding: 8px 15px;
+        font-size: 12px;
+        gap: 10px;
+      }
+
+      @media all and (max-width: 800px) {
+        padding: 8px 5px;
+        font-size: 12px;
+        gap: 10px;
+        text-align: center;
+      }
+
+      svg {
+        width: 15px;
+
+        @media all and (max-width: 800px) {
+          width: 12px;
+        }
+      }
+
+      &:hover {
+        background: lighten($col, $amount: 5);
+
+        svg {
+          transform: translateY(3px);
+          transition: transform 0.25s ease-in-out;
+        }
+      }
+      &:active {
+        transform: translateX(2px) translateY(-2px);
+        background: darken($col, $amount: 5);
+      }
+    }
+  }
+}
