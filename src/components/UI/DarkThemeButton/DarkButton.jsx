@@ -1,10 +1,11 @@
+"use client"
+
 import React, { useContext, useState } from "react"
 import styles from "./DarkButton.module.scss"
 import { DarkThemeContext } from "@/app/page"
 
 const DarkButton = () => {
   const { dark, setDark } = useContext(DarkThemeContext)
-  console.log(dark, "before ouside")
 
   const onDark = () => {
     setDark(!dark)

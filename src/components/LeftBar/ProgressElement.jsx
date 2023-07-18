@@ -1,3 +1,4 @@
+"use client"
 import styles from "../../styles/modules/LeftBar.module.scss"
 
 import React from "react"

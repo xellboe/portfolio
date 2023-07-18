@@ -18,9 +18,14 @@ export default function Home() {
 
   const isMobile = useMediaQuery(650)
 
+  let value
+  if (typeof window !== "undefined") {
+    value = localStorage.getItem("darkMode") || ""
+  }
+
   return (
     <DarkThemeContext.Provider value={{ dark, setDark }}>
-      <div className={localStorage.getItem("darkMode") === "dark" ? "container dark" : "container"}>
+      <div className={value === "dark" ? "container dark" : "container"}>
         {isMobile ? <Header /> : <LeftBar />}
         <div className="center">
           <About />

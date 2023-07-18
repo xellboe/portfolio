@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react"
 import Image from "next/image"
 import avatar from "../../../public/img/Your_Image1.png"
@@ -16,8 +18,8 @@ const About = () => {
           </h3>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque
-            rutrum semper sed suspendisse nunc lectus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis.
+            Natoque rutrum semper sed suspendisse nunc lectus.
           </p>
           <button>
             HIRE ME{" "}
