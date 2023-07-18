@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import Profile from "../../../public/img/Profile.png"
+
 import iconExtra from "../../../public/img/ExtraSkill.png"
 import styles from "../../styles/modules/LeftBar.module.scss"
 import ProgressElement from "./ProgressElement"
@@ -11,7 +12,13 @@ const LeftBar = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.left__summary}>
-          <Image src={Profile} className={styles.left__profile} width={150} height={150} alt="Picture of the author" />
+          <Image
+            src={Profile}
+            className={styles.left__profile}
+            width={150}
+            height={150}
+            alt="Picture of the author"
+          />
           <div className={styles.left__text}>
             <h3>Nikita Korotkyi</h3>
             <p>Font-end Developer</p>
@@ -40,7 +47,13 @@ const LeftBar = () => {
             </li>
             <li>
               <a href="#telegram">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
                     fill="#FFB400"
@@ -140,7 +153,11 @@ const LeftBar = () => {
           <hr className={styles.endline} />
         </div>
 
-        <a className={styles.left__extraskills__btn} href={Profile} download="CV">
+        <a
+          className={styles.left__extraskills__btn}
+          href="../../../public/pdf/Nikita_Korotkyi_CV.pdf"
+          download
+        >
           Download CV{" "}
           <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
