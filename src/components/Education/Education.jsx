@@ -1,5 +1,5 @@
 import React from "react"
-// import "./Education.scss"
+
 import styles from "../../styles/modules/Education.module.scss"
 
 const Education = () => {
@@ -15,9 +15,9 @@ const Education = () => {
           <div className={styles.speciality}>
             <div className={styles.spec_name}>Software engineer</div>
             <div className={styles.spec_description}>
-              Software engineering is the branch of computer science that deals with the design, development, testing,
-              and maintenance of software applications. Software engineers apply engineering principles and knowledge of
-              programming languages to build software solutions for end users.
+              Software engineering is the branch of computer science that deals with the design, development,
+              testing, and maintenance of software applications. Software engineers apply engineering
+              principles and knowledge of programming languages to build software solutions for end users.
             </div>
           </div>
         </div>
@@ -30,8 +30,9 @@ const Education = () => {
           <div className={styles.speciality}>
             <div className={styles.spec_name}>Computer engineering</div>
             <div className={styles.spec_description}>
-              Computer engineering is a branch of electrical engineering and computer science that integrates several
-              fields of computer science and electronic engineering required to develop computer hardware and software.
+              Computer engineering is a branch of electrical engineering and computer science that integrates
+              several fields of computer science and electronic engineering required to develop computer
+              hardware and software.
             </div>
           </div>
         </div>

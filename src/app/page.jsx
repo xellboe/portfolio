@@ -4,7 +4,6 @@ import LeftBar from "../components/LeftBar/LeftBar"
 import Header from "@/components/Header/Header"
 import RightBar from "@/components/RightBar/RightBar"
 
-import styles from "../styles/modules/page.module.scss"
 import About from "@/components/About/About"
 import Education from "@/components/Education/Education"
 import Projects from "@/components/Projects/Projects"
