@@ -6,6 +6,7 @@ $col: #ffb400;
   font-weight: 500;
   margin-bottom: 15px;
   text-align: center;
+  color: var(--main-text);
 }
 
 .header {
@@ -120,14 +121,14 @@ $col: #ffb400;
       font-family: Inter;
       font-size: 18px;
       font-weight: 500;
-      color: var(--black);
+      color: var(--main-text);
     }
     p {
       margin-bottom: 15px;
       font-family: Inter;
       font-size: 15px;
       font-weight: 500;
-      color: var(--paragraph-font);
+      color: var(--paragraph);
     }
   }
 
@@ -145,6 +146,7 @@ $col: #ffb400;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    color: var(--paragraph);
   }
 
   &__icon {

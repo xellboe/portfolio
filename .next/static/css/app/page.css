@@ -556,6 +556,7 @@
   font-weight: 500;
   margin-bottom: 15px;
   text-align: center;
+  color: var(--main-text);
 }
 
 .Header_header__wrapper__pJFnm {
@@ -644,14 +645,14 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
-  color: var(--black);
+  color: var(--main-text);
 }
 .Header_header__summary__BejHE p {
   margin-bottom: 15px;
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
-  color: var(--paragraph-font);
+  color: var(--paragraph);
 }
 @media all and (max-width: 365px) {
   .Header_header__text__nUZd3 {
@@ -666,6 +667,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  color: var(--paragraph);
 }
 .Header_header__icon__l4kM3 {
   display: flex;
