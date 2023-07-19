@@ -297,6 +297,16 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
+/***/ "(sc_client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Cnode_modules%5Cnext%5Cfont%5Cgoogle%5Ctarget.css%3F%7B%22path%22%3A%22src%5C%5Capp%5C%5Clayout.js%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Cstyles%5Cglobal%5Cglobals.scss&server=true!":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Cnode_modules%5Cnext%5Cfont%5Cgoogle%5Ctarget.css%3F%7B%22path%22%3A%22src%5C%5Capp%5C%5Clayout.js%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Cstyles%5Cglobal%5Cglobals.scss&server=true! ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ "(sc_client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Capp%5Cpage.jsx&server=true!":
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Capp%5Cpage.jsx&server=true! ***!
@@ -304,16 +314,6 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/page.jsx */ \"(sc_client)/./src/app/page.jsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNjX2NsaWVudCkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9RCUzQSU1Q1BST0dFUk9NJTIwQlVEVSU1Q015JTIwUHJvamVjdHMlNUNteS1wb3J0Zm9saW8lNUNzcmMlNUNhcHAlNUNwYWdlLmpzeCZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1wb3J0Zm9saW8vPzJjNGEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJEOlxcXFxQUk9HRVJPTSBCVURVXFxcXE15IFByb2plY3RzXFxcXG15LXBvcnRmb2xpb1xcXFxzcmNcXFxcYXBwXFxcXHBhZ2UuanN4XCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(sc_client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Capp%5Cpage.jsx&server=true!\n");
-
-/***/ }),
-
-/***/ "(sc_client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Cstyles%5Cglobal%5Cglobals.scss&modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Cnode_modules%5Cnext%5Cfont%5Cgoogle%5Ctarget.css%3F%7B%22path%22%3A%22src%5C%5Capp%5C%5Clayout.js%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&server=true!":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Csrc%5Cstyles%5Cglobal%5Cglobals.scss&modules=D%3A%5CPROGEROM%20BUDU%5CMy%20Projects%5Cmy-portfolio%5Cnode_modules%5Cnext%5Cfont%5Cgoogle%5Ctarget.css%3F%7B%22path%22%3A%22src%5C%5Capp%5C%5Clayout.js%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&server=true! ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ (() => {
-
-
 
 /***/ }),
 

@@ -131,16 +131,16 @@
       ],
       "async": false
     },
-    "D:\\PROGEROM BUDU\\My Projects\\my-portfolio\\src\\styles\\global\\globals.scss": {
-      "id": "(app-client)/./src/styles/global/globals.scss",
+    "D:\\PROGEROM BUDU\\My Projects\\my-portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "D:\\PROGEROM BUDU\\My Projects\\my-portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "D:\\PROGEROM BUDU\\My Projects\\my-portfolio\\src\\styles\\global\\globals.scss": {
+      "id": "(app-client)/./src/styles/global/globals.scss",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

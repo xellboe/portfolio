@@ -44,7 +44,7 @@ $col: #ffb400;
 }
 
 .title {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -56,7 +56,7 @@ $col: #ffb400;
 }
 
 .progress_bar {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: var(--paragraph);
@@ -100,7 +100,7 @@ $col: #ffb400;
   &__text {
     h3 {
       margin-bottom: 15px;
-      font-family: Inter;
+      font-family: "Inter", sans-serif;
       font-size: 18px;
       font-weight: 500;
       color: var(--main-text);
@@ -112,7 +112,7 @@ $col: #ffb400;
 
     p {
       margin-bottom: 15px;
-      font-family: Inter;
+      font-family: "Inter", sans-serif;
       font-size: 15px;
       font-weight: 400;
       color: var(--paragraph);
@@ -158,7 +158,7 @@ $col: #ffb400;
 
   &__extraskills {
     color: var(--paragraph);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-bottom: 5px;
@@ -184,7 +184,7 @@ $col: #ffb400;
 
       background: var(--accent);
       color: var(--btn);
-      font-family: "Inter";
+      font-family: "Inter", sans-serif;
       font-weight: 600;
       font-size: 14px;
       text-transform: uppercase;

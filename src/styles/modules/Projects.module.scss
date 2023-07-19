@@ -7,7 +7,7 @@
 
     h2 {
       text-align: center;
-      font-family: "Inter";
+      font-family: "Inter", sans-serif;
       font-weight: 700;
       font-size: 32px;
       background-color: var(--background);
@@ -66,7 +66,7 @@
     margin-bottom: 11px;
     .schoolname {
       .name {
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
         font-weight: 500;
         font-size: 18px;
         margin-bottom: 25px;
@@ -76,7 +76,7 @@
         height: 18px;
         background: var(--accent);
         border-radius: 2px;
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
         font-weight: 400;
         font-size: 10px;
         color: var(--btn);
@@ -89,12 +89,12 @@
       max-width: 536px;
       .spec_name {
         margin-bottom: 28px;
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
         font-weight: 500;
         font-size: 18px;
       }
       .spec_description {
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
         font-weight: 400;
         font-size: 15px;
         color: var(--paragraph);
