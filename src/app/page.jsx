@@ -9,6 +9,7 @@ import Education from "@/components/Education/Education"
 import Projects from "@/components/Projects/Projects"
 import Work from "@/components/WorkBlock/Work"
 import { createContext, useState } from "react"
+import From from "@/components/Form/From"
 
 export const DarkThemeContext = createContext()
 
@@ -32,6 +33,7 @@ export default function Home() {
           <Education />
           <Work />
           <Projects />
+          <From />
         </div>
         {isMobile ? "" : <RightBar />}
       </div>

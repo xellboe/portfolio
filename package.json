@@ -5,16 +5,37 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.9",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "net": "^1.0.2",
+    "next": "^13.4.13-canary.6",
+    "node-telegram-bot-api": "^0.61.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-transition-group": "^4.4.5"
+    "react-hook-form": "^7.45.2",
+    "react-transition-group": "^4.4.5",
+    "supports-color": "^9.4.0",
+    "telegraf": "^4.12.2"
   },
   "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.6",
+    "encoding": "^0.1.13",
     "sass": "^1.63.6"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "crypto": false,
+    "stream": false,
+    "http": false,
+    "tls": false,
+    "zlib": false,
+    "https": false,
+    "net": false
   }
 }

@@ -1,0 +1,72 @@
+$col: #ffb400;
+.form {
+  &__content {
+    // background: var(--block-bg);
+
+    h2 {
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      background-color: var(--background);
+      padding-bottom: 25px;
+      // border: 1px solid red;
+    }
+  }
+
+  &__place {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__input {
+    background-color: var(--block-bg);
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 15px;
+
+    margin: 10px 0;
+    // font-size: 14px;
+  }
+
+  &__submit[type="submit"] {
+    color: var(--text);
+    background-color: var(--accent);
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    border-radius: 4px;
+
+    &:hover {
+      background: lighten($col, $amount: 5);
+    }
+
+    &:active {
+      background: darken($col, $amount: 5);
+      transition: 0.3s all;
+      transform: translateY(0.5px);
+    }
+  }
+
+  &__textarea {
+    background-color: var(--block-bg);
+    resize: none;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+  }
+
+  &__errors {
+    color: rgb(194, 47, 47);
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+}
