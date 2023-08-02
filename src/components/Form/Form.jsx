@@ -55,7 +55,6 @@ const Form = () => {
             <span>Enter your email or telegram nickname!</span>
           )}
           {errors?.email && errors?.email.type === "pattern" && <span>Not valid email or TG nickname</span>}
-          {errors?.email && errors?.email.type === "pattern" && <span>Not valid email or TG nickname</span>}
         </div>
 
         <label>
