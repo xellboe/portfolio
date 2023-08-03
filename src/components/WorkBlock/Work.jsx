@@ -7,7 +7,7 @@ import styles from "../../styles/modules/Work.module.scss"
 const Work = () => {
   return (
     <div className={styles.work__content}>
-      <h2>Work</h2>
+      <h2 id="work">Work</h2>
       <div className={styles.work_block}>
         <div className={styles.work_element}>
           <div className={styles.schoolname}>

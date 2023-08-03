@@ -8,7 +8,7 @@ import About from "@/components/About/About"
 import Education from "@/components/Education/Education"
 import Projects from "@/components/Projects/Projects"
 import Work from "@/components/WorkBlock/Work"
-import { createContext, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 import Form from "@/components/Form/Form"
 
 export const DarkThemeContext = createContext()
@@ -19,14 +19,21 @@ export default function Home() {
 
   const isMobile = useMediaQuery(650)
 
-  let value
-  if (typeof window !== "undefined") {
-    value = localStorage.getItem("darkMode") || ""
-  }
+  let isDark
+  useEffect(() => {
+    const pageTheme = document.querySelector(".container")
+    if (localStorage.getItem("darkMode") === "dark") {
+      setDark(true)
+      pageTheme.classList.add("dark")
+    } else {
+      setDark(false)
+      pageTheme.classList.remove("dark")
+    }
+  }, [dark])
 
   return (
     <DarkThemeContext.Provider value={{ dark, setDark }}>
-      <div className={value === "dark" ? "container dark" : "container"}>
+      <div className={isDark === "dark" ? "container dark" : "container"}>
         {isMobile ? <Header /> : <LeftBar />}
         <div className="center">
           <About />

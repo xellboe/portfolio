@@ -25,7 +25,7 @@ const LeftBar = () => {
           </div>
           <ul className={styles.left__icon}>
             <li>
-              <a href="#linkedin">
+              <a href="https://www.linkedin.com/in/nkorotkyi/" target="_blank">
                 <svg
                   id="Capa_1"
                   style={{ enableBackground: "new 0 0 112.196 112.196" }}
@@ -46,7 +46,7 @@ const LeftBar = () => {
               </a>
             </li>
             <li>
-              <a href="#telegram">
+              <a href="https://t.me/nk_sdy" target="_blank">
                 <svg
                   width="48"
                   height="48"
@@ -79,7 +79,7 @@ const LeftBar = () => {
               </a>
             </li>
             <li>
-              <a href="#github">
+              <a href="https://github.com/xellboe" target="_blank">
                 <svg
                   data-name="Social Media Icons"
                   id="Social_Media_Icons"
@@ -153,11 +153,7 @@ const LeftBar = () => {
           <hr className={styles.endline} />
         </div>
 
-        <a
-          className={styles.left__extraskills__btn}
-          href="../../../public/pdf/Nikita_Korotkyi_CV.pdf"
-          download
-        >
+        <a className={styles.left__extraskills__btn} href="/pdf/Nikita_Korotkyi_CV.pdf" download>
           Download CV{" "}
           <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path

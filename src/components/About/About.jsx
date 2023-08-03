@@ -2,6 +2,7 @@
 
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 import avatar from "../../../public/img/Your_Image1.png"
 import styles from "../../styles/modules/About.module.scss"
 import { useMediaQuery } from "@/hooks"
@@ -21,15 +22,17 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis.
             Natoque rutrum semper sed suspendisse nunc lectus.
           </p>
-          <button>
-            HIRE ME{" "}
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M8.78117 5.33312L5.20517 1.75712L6.14784 0.814453L11.3332 5.99979L6.14784 11.1851L5.20517 10.2425L8.78117 6.66645H0.666504V5.33312H8.78117Z"
-                fill="#2B2B2B"
-              />
-            </svg>
-          </button>
+          <Link href="#form">
+            <button>
+              HIRE ME{" "}
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.78117 5.33312L5.20517 1.75712L6.14784 0.814453L11.3332 5.99979L6.14784 11.1851L5.20517 10.2425L8.78117 6.66645H0.666504V5.33312H8.78117Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
         <div className={styles.about__secondary}>
           {!isMobile1200 && <Image src={avatar} alt="" width={325} height={460} />}

@@ -7,7 +7,7 @@ import styles from "../../styles/modules/Education.module.scss"
 const Education = () => {
   return (
     <div className={styles.education__content}>
-      <h2>Education</h2>
+      <h2 id="education">Education</h2>
       <div className={styles.education_block}>
         <div className={styles.education_element}>
           <div className={styles.schoolname}>

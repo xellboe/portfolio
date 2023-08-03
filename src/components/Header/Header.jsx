@@ -19,10 +19,19 @@ const Header = () => {
   return (
     <div className={styles.header__wrapper}>
       <div className={styles.header__container}>
-        <Image src={Profile} className={styles.header__logo} width={70} height={70} alt="Picture of the author" />
+        <Image
+          src={Profile}
+          className={styles.header__logo}
+          width={70}
+          height={70}
+          alt="Picture of the author"
+        />
         <div className={styles.header__subcontainer}>
           <DarkButton />
-          <button onClick={handleToggleMenu} className={`${styles.header__burger} ${menuOpen ? styles.open : ""}`}>
+          <button
+            onClick={handleToggleMenu}
+            className={`${styles.header__burger} ${menuOpen ? styles.open : ""}`}
+          >
             <span></span>
             <span></span>
             <span></span>
@@ -50,7 +59,7 @@ const Header = () => {
             <div className={styles.header__links}>
               <ul className={styles.header__icon}>
                 <li>
-                  <a href="#linkedin">
+                  <a href="https://www.linkedin.com/in/nkorotkyi/" target="_blank">
                     <svg
                       id="Capa_1"
                       style={{ enableBackground: "new 0 0 112.196 112.196" }}
@@ -71,8 +80,14 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#telegram">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a href="https://t.me/nk_sdy" target="_blank">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path
                         d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
                         fill="#FFB400"
@@ -98,7 +113,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#github">
+                  <a href="https://github.com/xellboe" target="_blank">
                     <svg
                       data-name="Social Media Icons"
                       id="Social_Media_Icons"

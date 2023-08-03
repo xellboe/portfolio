@@ -2,6 +2,7 @@ $col: #ffb400;
 .form {
   &__content {
     // background: var(--block-bg);
+    color: var(--main-text);
 
     h2 {
       text-align: center;
@@ -32,7 +33,7 @@ $col: #ffb400;
   }
 
   &__submit[type="submit"] {
-    color: var(--text);
+    color: var(--black);
     background-color: var(--accent);
     text-transform: uppercase;
     border: none;

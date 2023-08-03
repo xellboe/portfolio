@@ -22,7 +22,7 @@ const Form = () => {
     reset()
   }
   return (
-    <div className={styles.form__content}>
+    <div id="form" className={styles.form__content}>
       <h2>Leave us your info</h2>
       <form id="tg" onSubmit={handleSubmit(onSubmit)} className={styles.form__place} action="" method="post">
         <label>

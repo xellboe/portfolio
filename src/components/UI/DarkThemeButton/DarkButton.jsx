@@ -8,9 +8,8 @@ const DarkButton = () => {
   const { dark, setDark } = useContext(DarkThemeContext)
 
   const onDark = () => {
-    setDark(!dark)
-
-    !dark ? localStorage.setItem("darkMode", "dark") : localStorage.setItem("darkMode", "light")
+    dark ? localStorage.setItem("darkMode", "light") : localStorage.setItem("darkMode", "dark")
+    setDark(() => !dark)
   }
 
   return (

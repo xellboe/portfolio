@@ -54,9 +54,6 @@
 
         transition: transform 0.01s ease-in-out;
       }
-      &:active {
-        // transform: translateY(1px);
-      }
     }
   }
 
@@ -86,6 +83,11 @@
       &:active {
         transform: translateX(2px) translateY(-2px);
       }
+    }
+  }
+
+  &__work {
+    path {
     }
   }
 }
